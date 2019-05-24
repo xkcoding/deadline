@@ -17,6 +17,7 @@ const frameIn = [
         path: 'index',
         name: 'index',
         meta: {
+          title: '首页',
           auth: true
         },
         component: _import('system/index')
@@ -85,6 +86,9 @@ const frameOut = [
   {
     path: '/login',
     name: 'login',
+    meta: {
+      title: '登录页面'
+    },
     component: _import('system/login')
   }
 ]
