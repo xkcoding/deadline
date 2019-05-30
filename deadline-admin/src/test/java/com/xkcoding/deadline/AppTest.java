@@ -1,4 +1,4 @@
-package com.xkcoding;
+package com.xkcoding.deadline;
 
 import static org.junit.Assert.assertTrue;
 

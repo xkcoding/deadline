@@ -1,4 +1,4 @@
-package com.xkcoding;
+package com.xkcoding.deadline;
 
 /**
  * Hello world!
@@ -6,7 +6,10 @@ package com.xkcoding;
  */
 public class App 
 {
-    public static void main( String[] args )
+    public App() {
+    }
+
+    public static void main(String[] args )
     {
         System.out.println( "Hello World!" );
     }

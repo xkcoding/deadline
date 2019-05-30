@@ -6,11 +6,43 @@
 
   <groupId>com.xkcoding</groupId>
   <artifactId>deadline</artifactId>
-  <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <description>任务时间轴</description>
+
+  <developers>
+    <developer>
+      <id>xkcoding</id>
+      <name>Yangkai.Shen</name>
+      <email>237497819@qq.com</email>
+      <url>https://xkcoding.com</url>
+      <roles>
+        <role>master</role>
+        <role>developer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>Hank</id>
+      <name>Hank.Xu</name>
+      <email>964850509@qq.com</email>
+      <url>http://www.ixuhan.cn</url>
+      <roles>
+        <role>developer</role>
+      </roles>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>https://github.com/xkcoding/deadline.git</connection>
+    <url>https://github.com/xkcoding/deadline</url>
+    <tag>master</tag>
+  </scm>
+
   <modules>
     <module>deadline-admin</module>
+    <module>deadline-common</module>
+    <module>deadline-notification</module>
   </modules>
-
 
 </project>
