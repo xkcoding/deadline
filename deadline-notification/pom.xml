@@ -23,11 +23,17 @@
   </properties>
 
   <dependencies>
+    <!-- lombok -->
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.12</version>
-      <scope>test</scope>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+    </dependency>
+    <!-- 自动生成基础配置信息，以及自动装配 -->
+    <dependency>
+      <groupId>net.dreamlu</groupId>
+      <artifactId>mica-auto</artifactId>
+      <version>${mica.version}</version>
+      <scope>provided</scope>
     </dependency>
   </dependencies>
 
