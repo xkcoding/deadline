@@ -23,11 +23,17 @@
   </properties>
 
   <dependencies>
+    <!-- 公共模块 -->
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
-      <scope>test</scope>
+      <groupId>com.xkcoding</groupId>
+      <artifactId>deadline-common</artifactId>
+      <version>${deadline.common.version}</version>
+    </dependency>
+    <!-- 通知模块 -->
+    <dependency>
+      <groupId>com.xkcoding</groupId>
+      <artifactId>deadline-notification</artifactId>
+      <version>${deadline.notification.version}</version>
     </dependency>
   </dependencies>
 
