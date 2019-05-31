@@ -45,4 +45,66 @@
     <module>deadline-notification</module>
   </modules>
 
+  <properties>
+    <deadline.common.version>1.0-SNAPSHOT</deadline.common.version>
+    <deadline.notification.version>1.0-SNAPSHOT</deadline.notification.version>
+
+    <springboot.version>2.1.5.RELEASE</springboot.version>
+
+    <servlet.version>2.5</servlet.version>
+    <swagger.version>2.9.2</swagger.version>
+    <swagger.models.version>1.5.21</swagger.models.version>
+    <hutool.version>4.5.10</hutool.version>
+    <guava.version>27.1-jre</guava.version>
+
+    <mica.version>1.1.0</mica.version>
+  </properties>
+
+  <dependencies>
+    <!-- Spring Boot MVC -->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+    <!-- Spring Boot 单元测试 -->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <dependencyManagement>
+    <dependencies>
+      <!-- Spring Boot 版本管理 -->
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-dependencies</artifactId>
+        <version>${springboot.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <!-- Spring Boot 打包工具管理 -->
+        <plugin>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-maven-plugin</artifactId>
+          <version>${springboot.version}</version>
+          <executions>
+            <execution>
+              <goals>
+                <goal>repackage</goal>
+              </goals>
+            </execution>
+          </executions>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
 </project>
