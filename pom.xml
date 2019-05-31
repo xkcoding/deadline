@@ -43,11 +43,13 @@
     <module>deadline-admin</module>
     <module>deadline-common</module>
     <module>deadline-notification</module>
+    <module>deadline-log</module>
   </modules>
 
   <properties>
     <deadline.common.version>1.0-SNAPSHOT</deadline.common.version>
     <deadline.notification.version>1.0-SNAPSHOT</deadline.notification.version>
+    <deadline.log.version>1.0-SNAPSHOT</deadline.log.version>
 
     <springboot.version>2.1.5.RELEASE</springboot.version>
 
