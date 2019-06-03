@@ -3,7 +3,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 ### xkcoding-后端 template
 ### Spring Boot ###
-/target/
+target
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
@@ -21,6 +21,7 @@
 *.ipr
 out/
 gen/
+*.iml
 
 ### NetBeans ###
 /nbproject/private/
