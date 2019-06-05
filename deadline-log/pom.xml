@@ -23,6 +23,12 @@
   </properties>
 
   <dependencies>
+    <!-- 公共模块 -->
+    <dependency>
+      <groupId>com.xkcoding</groupId>
+      <artifactId>deadline-common</artifactId>
+      <version>${deadline.common.version}</version>
+    </dependency>
     <!-- lombok -->
     <dependency>
       <groupId>org.projectlombok</groupId>

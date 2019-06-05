@@ -18,7 +18,7 @@
     </encoder>
   </appender>
 
-  <!-- Log file debug output -->
+  <!-- ApiLog file debug output -->
   <appender name="FILE_DEBUG" class="ch.qos.logback.core.rolling.RollingFileAppender">
     <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
       <FileNamePattern>${logPath}/${logName}/%d{yyyy-MM}/debug.%d{yyyy-MM-dd}.%i.log</FileNamePattern>
@@ -36,7 +36,7 @@
     </encoder>
   </appender>
 
-  <!-- Log file error output -->
+  <!-- ApiLog file error output -->
   <appender name="FILE_ERROR" class="ch.qos.logback.core.rolling.RollingFileAppender">
     <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
       <FileNamePattern>${logPath}/${logName}/%d{yyyy-MM}/error.%d{yyyy-MM-dd}.%i.log</FileNamePattern>
